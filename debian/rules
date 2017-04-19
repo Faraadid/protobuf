@@ -50,6 +50,11 @@ endif
 version=0.0.0
 major=0
 
+override_dh_auto_configure:
+		# upstream tarball is without configure. autogen.sh will create it, also gets gmock
+		NOCONFIGURE=1 ./autogen.sh
+		dh_auto_configure
+		
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
