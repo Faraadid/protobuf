@@ -29,7 +29,7 @@ check-local:
 # Makefile exists before recursing.
 clean-local:
 	@if test -d gmock ; then \
-	  if test -e gmock/Making ; then \
+	  if test -e gmock/Makefile ; then \
 	    echo "Making clean in gmock"; \
 	   cd gmock && $(MAKE) $(AM_MAKEFLAGS) clean; \
 	  fi; \
