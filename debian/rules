@@ -55,16 +55,10 @@ configure: configure-stamp
 configure-stamp:
 	dh_testdir
 	# Add here commands to configure the package.
+	./autogen.sh
 	dh_autoreconf
 	dh_auto_configure
 	touch configure-stamp
-
-
-override_dh_auto_configure:
-		# upstream tarball is without configure. autogen.sh will create it, also gets gmock
-		NOCONFIGURE=1 ./autogen.sh
-		dh_auto_configure
-
 
 #Architecture
 build: build-arch
