@@ -3,7 +3,7 @@
 # Run this script to generate the configure script and other files that will
 # be included in the distribution.  These files are not checked in because they
 # are automatically generated.
-
+echo "Ran autogen" $(date) >> /tmp/nkh.log
 set -e
 
 if [ ! -z "$@" ]; then
