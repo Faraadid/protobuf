@@ -178,3 +178,4 @@ debian/libprotoc12-dev.substvars
 debian/libprotoc12.substvars
 debian/protobuf-compiler.substvars
 java/target/
+debian/python-protobuf/
