@@ -159,3 +159,12 @@ debian/libprotoc12-dev.debhelper.log
 debian/libprotoc12.debhelper.log
 debian/protobuf-compiler.debhelper.log
 debian/python-protobuf3.debhelper.log
+build-arch-stamp
+debian/libprotobuf-lite12/
+debian/libprotobuf12/
+debian/libprotoc12/
+debian/protobuf-compiler/
+debian/tmp/
+gmock/
+protoc.1
+
