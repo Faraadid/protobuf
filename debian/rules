@@ -150,10 +150,10 @@ install-arch: build-arch
 	dh_install --sourcedir=debian/tmp -s
 
 	# convert doc dir to symlink for the dev packages
-	rm -rf $(CURDIR)/debian/libprotobuf-dev/usr/share/doc/libprotobuf-dev
-	ln -s libprotobuf12 $(CURDIR)/debian/libprotobuf-dev/usr/share/doc/libprotobuf-dev
-	rm -rf $(CURDIR)/debian/libprotoc-dev/usr/share/doc/libprotoc-dev
-	ln -s libprotoc12 $(CURDIR)/debian/libprotoc-dev/usr/share/doc/libprotoc-dev
+	#rm -rf $(CURDIR)/debian/libprotobuf-dev/usr/share/doc/libprotobuf-dev
+	#ln -s libprotobuf12 $(CURDIR)/debian/libprotobuf-dev/usr/share/doc/libprotobuf-dev
+	#rm -rf $(CURDIR)/debian/libprotoc-dev/usr/share/doc/libprotoc-dev
+	#ln -s libprotoc12 $(CURDIR)/debian/libprotoc-dev/usr/share/doc/libprotoc-dev
 
 	# remove compiler headers from libprotobuf-dev
 	rm -rf $(CURDIR)/debian/libprotobuf-dev/usr/include/google/protobuf/compiler
