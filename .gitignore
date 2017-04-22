@@ -145,3 +145,16 @@ js/google-protobuf.js
 js/google/
 js/node_modules/
 js/testproto_libs.js
+
+#debian packaging
+configure-stamp
+debian/autoreconf.after
+debian/autoreconf.before
+debian/libprotobuf-lite12.debhelper.log
+debian/libprotobuf12-dev.debhelper.log
+debian/libprotobuf12-java.debhelper.log
+debian/libprotobuf12.debhelper.log
+debian/libprotoc12-dev.debhelper.log
+debian/libprotoc12.debhelper.log
+debian/protobuf-compiler.debhelper.log
+debian/python-protobuf3.debhelper.log
