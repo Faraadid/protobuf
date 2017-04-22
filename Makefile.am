@@ -31,7 +31,7 @@ clean-local:
 	@if test -d gmock ; then \
 	  if test -e gmock/Makefile ; then \
 	    echo "Making clean in gmock"; \
-	   cd gmock && $(MAKE) $(AM_MAKEFLAGS) clean; \
+	    cd gmock && $(MAKE) $(AM_MAKEFLAGS) clean; \
 	  fi; \
 	fi; \
 	if test -e conformance/Makefile; then \
