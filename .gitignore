@@ -169,3 +169,12 @@ gmock/
 protoc.1
 debian/libprotoc12-dev/
 debian/libprotobuf12-dev/
+debian/.debhelper/
+debian/files
+debian/libprotobuf-lite12.substvars
+debian/libprotobuf12-dev.substvars
+debian/libprotobuf12.substvars
+debian/libprotoc12-dev.substvars
+debian/libprotoc12.substvars
+debian/protobuf-compiler.substvars
+java/target/
