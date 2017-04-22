@@ -167,4 +167,5 @@ debian/protobuf-compiler/
 debian/tmp/
 gmock/
 protoc.1
-
+debian/libprotoc12-dev/
+debian/libprotobuf12-dev/
