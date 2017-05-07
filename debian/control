@@ -1,4 +1,4 @@
-Source: protobuf
+Source: protobuf3
 Section: devel
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -121,7 +121,7 @@ Description: protocol buffers compiler library (development files)
  This package contains the development headers and static library needed for
  writing protobuf compilers.
 
-Package: protobuf-compiler
+Package: protobuf3-compiler
 Architecture: any
 Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}, libprotoc12 (= ${binary:Version})
