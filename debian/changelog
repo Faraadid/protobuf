@@ -1,3 +1,13 @@
+protobuf3 (3.2.1-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Changed naming to avoid conflict with ubuntu protobuf. 
+    - This bug showed when some one did an apt-get install protobuf-compiler , having the
+      local repo, it resulted in getting our protobuf while the author on that tuturial 
+      had assumed ubuntu uses protobuf-compiler version 2, which is right, and we intervine 
+      this process. So I'm putting my feet down.
+
+ -- Navid Khazaee (nkhdiscovery) <navid.khazaee@gmail.com> Sun, 07 May 2017 18:20:32 +0430
+
 protobuf (3.2.1-0ubuntu1) xenial; urgency=medium
 
   * Packaged protobuf 3.2.1 for ubuntu xenial, for Faraadid Company
