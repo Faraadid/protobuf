@@ -104,7 +104,7 @@ clean:
 	[ ! -f Makefile ] || $(MAKE) distclean
 
 	# remove the built manpage
-	rm -f protoc.1
+	rm -f protoc3.1
 
 	# Python bindings cleanups
 	#cd python && python setup.py clean --all
