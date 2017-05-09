@@ -127,10 +127,10 @@ install-indep: build-indep
 	# python bindings
 	cd python && \
 		python setup.py install --install-layout=deb --no-compile \
-			--root=$(CURDIR)/debian/python-protobuf
-	find $(CURDIR)/debian/python-protobuf -name 'protobuf-*-nspkg.pth' -print0 | \
+			--root=$(CURDIR)/debian/python-protobuf3
+	find $(CURDIR)/debian/python-protobuf3 -name 'protobuf3-*-nspkg.pth' -print0 | \
 		xargs -r0 rm -f
-	find $(CURDIR)/debian/python-protobuf -name '*cpp*.py' -print0 | \
+	find $(CURDIR)/debian/python-protobuf3 -name '*cpp*.py' -print0 | \
 		xargs -r0 rm -f
 
 
@@ -156,7 +156,7 @@ install-arch: build-arch
 	#ln -s libprotoc12 $(CURDIR)/debian/libprotoc-dev/usr/share/doc/libprotoc-dev
 
 	# remove compiler headers from libprotobuf-dev
-	rm -rf $(CURDIR)/debian/libprotobuf-dev/usr/include/google/protobuf/compiler
+	rm -rf $(CURDIR)/debian/libprotobuf12-dev/usr/include/google/protobuf/compiler
 
 	# remove .la files, as no other library depends on us
 	find $(CURDIR)/debian -name '*.la' -print0|xargs -r0 rm -f

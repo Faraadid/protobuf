@@ -7,8 +7,8 @@
 
 set -e
 
-test -f protobuf-compiler_*.deb || \
-    { echo "Cannot find protobuf-compiler deb file, exiting" 1>&2; exit 1; }
+test -f protobuf3-compiler_*.deb || \
+    { echo "Cannot find protobuf3-compiler deb file, exiting" 1>&2; exit 1; }
 
 echo "*** Installing dependencies (hardcoded list)"
 
@@ -18,9 +18,9 @@ echo "*** Installing packages"
 
 dpkg -i *.deb
 
-cd /usr/share/doc/protobuf-compiler/examples
+cd /usr/share/doc/protobuf3-compiler/examples
 
-export CLASSPATH=/usr/share/java/protobuf.jar
+export CLASSPATH=/usr/share/java/protobuf3.jar
 
 echo "*** Building example programs"
 

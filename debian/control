@@ -158,7 +158,7 @@ Description: Python bindings for protocol buffers
  file formats.
  .
  This package contains the Python bindings for the protocol buffers. You will
- need the protoc tool (in the protobuf-compiler package) to compile your
+ need the protoc tool (in the protobuf3-compiler package) to compile your
  definition to Python classes, and then the modules in this package will allow
  you to use those classes in your programs.
 
@@ -179,6 +179,6 @@ Description: Java bindings for protocol buffers
  file formats.
  .
  This package contains the Java bindings for the protocol buffers. You will
- need the protoc tool (in the protobuf-compiler package) to compile your
+ need the protoc tool (in the protobuf3-compiler package) to compile your
  definition to Java classes, and then the modules in this package will allow
  you to use those classes in your programs.
