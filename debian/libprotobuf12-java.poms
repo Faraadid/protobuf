@@ -1,1 +1,1 @@
-java/pom.xml --artifact=java/target/protobuf3.jar --java-lib --no-parent --usj-name=protobuf3
+java/pom.xml --artifact=java/core/target/protobuf3.jar --java-lib --no-parent --usj-name=protobuf3
