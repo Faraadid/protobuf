@@ -185,3 +185,7 @@ debian/libprotobuf12-java/
 debian/protobuf3-compiler.debhelper.log
 debian/protobuf3-compiler.substvars
 debian/protobuf3-compiler/
+debian/libprotobuf12-java.substvars
+debian/python-protobuf3.postinst.debhelper
+debian/python-protobuf3.prerm.debhelper
+debian/python-protobuf3.substvars
